@@ -1,17 +1,18 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
-    font-family: 'Ubuntu', sans-serif;    
 }
 
 body{
-    background-color: whitesmoke;
+    background-color: #F6F8F9;
 }
 
 header{
     height: 70px;
     background-color: white;
+    position: relative;
 }
 
 header img{
@@ -20,6 +21,9 @@ header img{
 
 .header-title{
     display: inline-block;
+    font-size: 2em;
+    margin-top: 10px;
+    position: absolute;
 }
 
 main{
@@ -28,16 +32,12 @@ main{
     margin-right: 20%;
     margin-top: 30px;
     border-radius: 2%;
+    height: 100vh;
 }
 
 .button{
     padding-left: 5%;
 }
-
-.container{
-
-}
-
 
 .add-blue, .add-white{
    margin-top: 10px;
@@ -45,21 +45,34 @@ main{
    padding: 1%;
    font-size: 0.7em;
    border-radius: 10%;
-   border-color: grey;
+   border: 1px solid #CDD2D6;
 }
 
 .add-blue{
     color: white;
-    background-color: rgb(0, 119, 255);
+    background-color: #42A9E9;
+}
+
+.add-white{
+    color: #CDD2D6;
+    background-color: white;
 }
 
 hr{
-    border: 1px solid whitesmoke;
+    border: 1px solid #F6F8F9;
     width: 100%;
 }
 
+ul{
+    margin-top: 35px;}
+
 li{
     list-style: none;
+    margin-bottom: 20px;
+}
+
+.title{
+    margin: 0;
 }
 
 .green{
@@ -67,6 +80,7 @@ li{
     border-radius: 50%;
     color: green;
     font-size: 0.7em;
+    margin-right: 5px;
 }
 
 .red{
@@ -74,4 +88,66 @@ li{
     border-radius: 50%;
     color: red;
     font-size: 0.7em;
+    margin-right: 5px;
+}
+
+.editorial{
+    margin-left: 5px;
+    border: 1px solid #42A9E9;
+    color: white;
+    background-color: #42A9E9;
+    font-size: 0.7em;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+.q1{
+    margin-left: 5px;
+    border: 1px solid #9C72E4;
+    color: white;
+    background-color: #9C72E4;
+    font-size: 0.7em;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+.recruiting{
+    margin-left: 5px;
+    border: 1px solid #64C0A9n;
+    border-radius: 15%;
+    color: white;
+    background-color: #64C0A9;
+    font-size: 0.7em;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+.mobile{
+    margin-left: 5px;
+    border: 1px solid #F29E33;
+    color: white;
+    background-color: #F29E33;
+    font-size: 0.7em;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+.website{
+    margin-left: 5px;
+    border: 1px solid #D863A1;
+    color: white;
+    background-color: #D863A1;
+    font-size: 0.7em;
+    border-radius: 7px;
+    padding: 3px 6px;
+}
+
+.sales{
+    margin-left: 5px;
+    border: 1px solid r#B0C926;
+    color: white;
+    background-color: #B0C926;
+    font-size: 0.7em;
+    border-radius: 7px;
+    padding: 3px 6px;
 }
