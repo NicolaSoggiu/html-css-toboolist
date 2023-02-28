@@ -1,6 +1,8 @@
 *{
     box-sizing: border-box;
-    margin: 0;    
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;    
 }
 
 body{
@@ -28,17 +30,48 @@ main{
     border-radius: 2%;
 }
 
+.button{
+    padding-left: 5%;
+}
+
 .container{
-    padding-left: 40px;
+
 }
 
 
-.add{
+.add-blue, .add-white{
    margin-top: 10px;
    margin-bottom: 10px;
+   padding: 1%;
+   font-size: 0.7em;
+   border-radius: 10%;
+   border-color: grey;
+}
+
+.add-blue{
+    color: white;
+    background-color: rgb(0, 119, 255);
 }
 
 hr{
     border: 1px solid whitesmoke;
     width: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+.green{
+    border: 1px solid green;
+    border-radius: 50%;
+    color: green;
+    font-size: 0.7em;
+}
+
+.red{
+    border: 1px solid red;
+    border-radius: 50%;
+    color: red;
+    font-size: 0.7em;
 }
