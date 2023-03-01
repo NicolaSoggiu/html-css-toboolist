@@ -60,16 +60,29 @@ hr{
 }
 
 ul{
-    margin-top: 35px;
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-section{
+    padding: 1.5rem 3rem 1rem;
+}
+
+h3{
+    padding-bottom: .5rem;
 }
 
 li{
-    list-style: none;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+}
+
+.last-child{
+    margin-bottom: 30px;
 }
 
 .title{
     margin: 0;
+    vertical-align: -2px;
 }
 
 .green, .red{
@@ -107,7 +120,7 @@ li{
 }
 
 .recruiting{
-    border: 1px solid #64C0A9n;
+    border: 1px solid #64C0A9;
     background-color: #64C0A9;
 }
 
